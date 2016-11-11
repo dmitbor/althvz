@@ -35,7 +35,7 @@
 		}
 	
 	// Page topper small logo.
-	echo "<div class=\"MiniLogo\"><p class=\"MnLogoTxt\">HVZ <span class=\"MnLogoTxtSmall\">Keene Source</span></p>";
+	echo "<div class=\"MiniLogo\"><p class=\"MnLogoTxt\">HVZ <span class=\"MnLogoTxtSmall\">Source</span></p>";
 	// Zombies are always shown that they hunger and their dying counter
 	if ($UserTeam < 2 && $UserTeam > -1)
 		{

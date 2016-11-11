@@ -18,10 +18,7 @@
 		{
 		echo "<div class=\"TopLogo\">";
 			echo "<p class=\"KeeneSourceLogo\">HVZ</p>";
-			echo "<p class=\"KeeneSourceSubLogo\"><span class=\"KSCRed\">KSC</span><br>Source</p>";
-			echo "<div class=\"SubLogo\">";
-			echo "<img src=\"Images/hvzowllogo.png\" class=\"Logo\">";
-			echo "</div>";
+			echo "<p class=\"KeeneSourceSubLogo\"><span class=\"KSCRed\">alt</span><br>Source</p>";
 		echo "</div>";
 		
 		echo "<div class=\"OverMenu\">";

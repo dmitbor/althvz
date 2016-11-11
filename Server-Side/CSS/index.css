@@ -47,20 +47,6 @@ line-height: .8em;
 color: #CE1126;
 }
 
-.SubLogo
-{
-position: absolute;
-width: 20%;
-height: 80%;
-top: 5%;
-right: -21.25%;
-background: #AF1E2D;
-border-color: #C9C1B8;
-border-left-color: #000000;
-border-width: 1vh;
-border-style: dashed;
-}
-
 .Logo
 {
 position: absolute;
