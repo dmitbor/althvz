@@ -1,0 +1,199 @@
+.GamesDiv
+{
+position: absolute;
+left: 30%;
+width: 40%;
+min-height: 70%;
+top: 30%;
+background-color: #E7D8AC;
+}
+
+.GameSubDiv
+{
+position: relative;
+width: 100%;
+height: 25%;
+}
+
+.GameBorder
+{
+position: relative;
+left: 15%;
+width: 70%;
+border-bottom-style: dashed;
+border-bottom-width: .35vh;
+border-color: #633A11;
+}
+
+.GameIcon
+{
+position: relative;
+margin-top: 5%;
+left: 5%;
+width: 25%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.GameName
+{
+position: absolute;
+right: 10%;
+top: 5%;
+width: 60%;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+text-align: center;
+}
+
+.GameJoinBtn
+{
+position: absolute;
+width: 10%;
+right: 30%;
+top: 40%;
+}
+
+.EnterGameForm
+{
+position: absolute;
+left: 30%;
+width: 40%;
+min-height: 70%;
+bottom: 0%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-bottom-width: 0;
+border-top-left-radius: .75vw;
+border-top-right-radius: .75vw;
+}
+
+.GameRules
+{
+position: absolute;
+left: 10%;
+top: 10%;
+width: 80%;
+height: 60%;
+background-color: #F2F2F2;
+overflow: scroll;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.MercClar
+{
+position: absolute;
+left: 10%;
+top: 10%;
+width: 80%;
+height: 60%;
+background-color: #F2F2F2;
+overflow: scroll;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.OZClar
+{
+position: absolute;
+left: 10%;
+top: 10%;
+width: 80%;
+height: 60%;
+background-color: #F2F2F2;
+overflow: scroll;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.RulesCheck
+{
+position: absolute;
+left: 20%;
+top: 70%;
+}
+
+.MercCheck
+{
+position: absolute;
+left: 20%;
+top: 75%;
+}
+
+.OZCheck
+{
+position: absolute;
+left: 20%;
+top: 80%;
+}
+
+.GameCodeInput
+{
+position: absolute;
+left: 30%;
+top: 90%;
+height: 7.5%;
+width: 30%;
+font-size: 4vh;
+}
+
+.enterBtn
+{
+position: absolute;
+left: 62.5%;
+top: 90%;
+height: 7.5%;
+width: 10%;
+}
+
+.AccssText
+{
+position: absolute;
+left: 20%;
+top: 86%;
+text-align: right;
+}
+
+.ErrorDiv
+{
+position: absolute;
+top: 20%;
+left: 35%;
+width: 30%;
+height: 5%;
+background-color: #E5B0AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+font-size: 2vh;
+text-align: center;
+font-weight: bold;
+}
+
+.NoGames
+{
+position: absolute;
+top: 30%;
+height: 0%;
+width: 100%;
+font-size: 4.5vh;
+text-align: center;
+font-weight: bold;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+.TypeTitle
+{
+width: 100%;
+text-align: center;
+font-size: 5vh;
+padding-top: 1.5%;
+font-weight: bold;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Subpar
+{
+padding-left: 5%;
+}

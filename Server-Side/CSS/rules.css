@@ -1,0 +1,82 @@
+.RulesTopDiv
+{
+position: absolute;
+top: 20%;
+left: 25%;
+width: 55%;
+height: 5%;
+background-color: #E7D8AC;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-bottom-width: 0;
+border-top-left-radius: .75vw;
+border-top-right-radius: .75vw;
+}
+
+.GenRuleBtn
+{
+position: absolute;
+top: 20%;
+left: 10%;
+width: 20%;
+}
+
+.GameRuleBtn
+{
+position: absolute;
+top: 20%;
+left: 30%;
+width: 20%;
+}
+
+.WebRuleBtn
+{
+position: absolute;
+top: 20%;
+left: 50%;
+width: 20%;
+}
+
+.LglRuleBtn
+{
+position: absolute;
+top: 20%;
+left: 70%;
+width: 20%;
+}
+
+.RulesDiv
+{
+position: absolute;
+top: 25%;
+left: 25%;
+width: 50%;
+height: 74.5%;
+background-color: #E7D8AC;
+overflow: auto;
+padding-left: 2.5%;
+padding-right: 2.5%;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-bottom-width: 0;
+border-top-width: 0;
+}
+
+.Subpar
+{
+padding-left: 5%;
+}
+
+.TypeTitle
+{
+width: 100%;
+text-align: center;
+font-size: 5vh;
+padding-top: 1.5%;
+font-weight: bold;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

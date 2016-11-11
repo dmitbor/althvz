@@ -1,0 +1,157 @@
+.MissionList
+{
+position: absolute;
+left: 20%;
+top: 30%;
+min-height: 25%;
+width: 60%;
+padding-bottom: 5%;
+}
+
+.MissionInfo
+{
+position: relative;
+height: auto;
+width: 80%;
+min-height: 150px;
+background-color: #F2E2B5;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-radius: 1vw;
+margin-bottom: 5%;
+}
+
+.MissTitle
+{
+position: absolute;
+left: -5%;
+top: -30px;
+min-width: 20%;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 5vh;
+text-align: center;
+background-color: #FFF0FF;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-top-left-radius: 1vw;
+border-bottom-right-radius: 1vw;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.MissDesc
+{
+position: relative;
+top: 50px;
+left: 10%;
+padding-bottom: 10%;
+width: 80%;
+}
+
+.SecMission
+{
+position: absolute;
+left: -32%;
+top: 5vh;
+width: 30%;
+text-align: center;
+font-size: 2vh;
+border-top-left-radius: 1vw;
+border-bottom-left-radius: 1vw;
+background-color: #BCE4E5;
+border-color: #80A1B6;
+border-width: 1vh;
+border-style: solid;
+}
+
+.MissOver
+{
+position: absolute;
+left: -32%;
+top: -3vh;
+width: 30%;
+height: 7vh%;
+text-align: left;
+padding-left: 2.5%;
+font-size: 2.6vh;
+border-top-left-radius: 1vw;
+border-bottom-left-radius: 1vw;
+background-color: #BCE4E5;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.LosDiv
+{
+position: absolute;
+left: 100%;
+top: 5vh;
+width: 40%;
+max-height: 70%;
+background-color: #FFFFFF;
+border-bottom-right-radius: 1vw;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+overflow: auto;
+}
+
+.LossDesc
+{
+position: absolute;
+left: 100%;
+width: 40%;
+top: 0vh;
+text-align: center;
+font-size: 3vh;
+background-color: #FFF0FF;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-top-right-radius: 1vw;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.TagShowDiv
+{
+position: relative;
+height: 70px;
+width: 100%;
+}
+
+.TaggedAvy
+{
+position: absolute;
+left: 10%;
+top: 15%;
+height: 60%;
+}
+
+.TaggedName
+{
+position: absolute;
+left: 35%;
+top: 10%;
+width: 50%;
+}
+
+.NoMissions
+{
+position: absolute;
+top: 40%;
+left: 25%;
+width: 50%;
+padding: 1%;
+text-align: center;
+font-size: 3.3vh;
+background-color: #FFF0FF;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-radius: 1vw;
+font-family: "Arial Black", Gadget, sans-serif;
+}

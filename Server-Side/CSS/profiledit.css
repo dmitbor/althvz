@@ -1,0 +1,265 @@
+.EditForm
+{
+position: absolute;
+bottom: 0%;
+left: 20%;
+width: 30%;
+height: 70%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-bottom-width: 0px;
+border-style: solid;
+border-top-left-radius: .75vw;
+border-top-right-radius: .75vw;
+}
+
+.NameLbl
+{
+position: absolute;
+left: 10%;
+}
+
+.UserNameText
+{
+position: absolute;
+left: 10%;
+top: 7.5%;
+height: 5%;
+width: 80%;
+}
+
+.DescLbl
+{
+position: absolute;
+left: 10%;
+top: 12.5%;
+}
+
+.UserDescTextArea
+{
+position: absolute;
+left: 10%;
+top: 20%;
+height: 20%;
+width: 80%;
+resize: none;
+}
+
+.AvyToUpload
+{
+position: absolute;
+left: 10%;
+width: 80%;
+top: 48.5%;
+}
+
+.AvyPrev
+{
+position: absolute;
+left: 10%;
+top: 55%;
+height: 160px;
+width: 160px;
+border-width: .5vh;
+border-style: solid;
+border-color: #CE1126;
+}
+
+.AvySelPar
+{
+position: absolute;
+left: 60%;
+top: 51.5%;
+}
+
+.AvySelect
+{
+position: absolute;
+left: 60%;
+top: 60%;
+}
+
+.AvyWarnPar
+{
+position: absolute;
+left: 55%;
+top: 62%;
+width: 40%;
+font-size: 2vh;
+font-weight: bold;
+visibility: hidden;
+text-align: center;
+}
+
+.UpdateBtn
+{
+position: absolute;
+left: 37.5%;
+bottom: 2.5%;
+width: 25%;
+}
+
+.UploadError
+{
+position: absolute;
+width: 30%;
+height: 10%;
+top: 50%;
+left: 50.25%;
+padding-top: 0.75%;
+background-color: #E5B0AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+font-size: 2.5vh;
+text-align: center;
+border-top-right-radius: .75vw;
+font-family: Impact;
+}
+
+.NewPass
+{
+position: absolute;
+width: 30%;
+height: 15%;
+top: 45%;
+left: 50.25%;
+padding-top: 0.75%;
+background-color: #F2C13C;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+font-size: 2.5vh;
+text-align: center;
+border-top-right-radius: .75vw;
+font-family: Impact;
+}
+
+.EditForm2
+{
+position: fixed;
+bottom: -30%;
+left: 50.25%;
+width: 30%;
+height: 70%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-bottom-width: 0px;
+border-style: solid;
+border-top-right-radius: .75vw;
+}
+
+.PassConfDiv
+{
+position: absolute;
+top: 60%;
+left: 10%;
+width: 80%;
+height: 20%;
+border-color: #CE1126;
+border-width: .25vh;
+border-style: solid;
+}
+
+.NewPassLbl1
+{
+position: absolute;
+left: 10%;
+}
+
+.NewPassText1
+{
+position: absolute;
+left: 10%;
+top: 7.5%;
+height: 4%;
+width: 80%;
+}
+
+.NewPassLbl2
+{
+position: absolute;
+left: 10%;
+top: 12.5%;
+}
+
+.NewPassText2
+{
+position: absolute;
+left: 10%;
+top: 20%;
+height: 4%;
+width: 80%;
+}
+
+.NewEmailLbl
+{
+position: absolute;
+left: 10%;
+top: 25%;
+}
+
+.NewEmailText
+{
+position: absolute;
+left: 10%;
+top: 32.5%;
+height: 4%;
+width: 80%;
+}
+
+.AllowNewsMailLbl
+{
+position: absolute;
+left: 25%;
+top: 40%;
+}
+
+.AllowNewsEmailBox
+{
+position: absolute;
+left: 65%;
+top: 43.5%;
+transform: scale(1.5);
+}
+
+.AllowMssnMailLbl
+{
+position: absolute;
+left: 25%;
+top: 47.5%;
+}
+
+.AllowMssnEmailBox
+{
+position: absolute;
+left: 65%;
+top: 51%;
+transform: scale(1.5);
+}
+
+.CurPassLbl
+{
+position: absolute;
+left: 10%;
+top: -10%;
+}
+
+.CurPassText
+{
+position: absolute;
+left: 10%;
+top: 30%;
+height: 20%;
+width: 80%;
+}
+
+.UpdateEmailPassBtn
+{
+position: absolute;
+left: 35%;
+top: 70%;
+width: 30%;
+}

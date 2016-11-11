@@ -1,0 +1,1969 @@
+.GameMNGR
+{
+position: absolute;
+left: 18.5%;
+top: 30%;
+width: 60%;
+height: 40%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.GameMNGR2
+{
+position: absolute;
+left: 32.5%;
+top: 30%;
+width: 30%;
+height: 35%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.IconDesc
+{
+position: absolute;
+left: 5%;
+top: 0%;
+font-style: italic;
+}
+
+.IconList
+{
+position: absolute;
+left: 15%;
+top: 6%;
+width: 10%;
+}
+
+.GameIcon
+{
+position: relative;
+left: 5%;
+top: 15%;
+width: 20%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.GameIconToUpload
+{
+position: absolute;
+left: 16%;
+top: 85%;
+width: 11%;
+}
+
+.GameIconResetBox
+{
+position: absolute;
+left: 2%;
+top: 80%;
+}
+
+.NameDesc
+{
+position: absolute;
+left: 30%;
+top: 0%;
+font-style: italic;
+}
+
+.GameName
+{
+position: absolute;
+left: 30%;
+top: 15%;
+width: 32%;
+font-size: 3.5vh;
+}
+
+.CodeDesc
+{
+position: absolute;
+left: 30%;
+top: 25%;
+font-style: italic;
+}
+
+.GameCode
+{
+position: absolute;
+top: 26%;
+left: 30%;
+width: 27.5%;
+padding: 2.4%;
+padding-left: 0%;
+padding-right: 3%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+font-size: 6vh;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.saveBtn
+{
+position: absolute;
+top: 85%;
+left: 30%;
+width: 11%;
+}
+
+.StrtBtn
+{
+position: absolute;
+top: 85%;
+left: 50%;
+width: 11%;
+}
+
+.InfoDesc
+{
+position: absolute;
+left: 65%;
+top: 0%;
+font-style: italic;
+}
+
+.GameInfoDiv
+{
+position: absolute;
+left: 65%;
+top: 15%;
+width: 30%;
+height: 62%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+font-size: 2.4vh;
+text-align: right;
+font-family: "Lucida Console", Monaco, monospace;
+}
+
+.Umies
+{
+color: #FF7C00;
+margin-bottom: 0px;
+padding-right: 5%;
+}
+
+.Mercs
+{
+color: #0094FF;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-right: 5%;
+}
+
+.Zumbas
+{
+color: #4B721D;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-right: 5%;
+}
+
+.Ded
+{
+margin-top: 0px;
+margin-bottom: 0px; 
+padding-right: 5%;
+}
+
+.OZStatus
+{
+color: #D80000;
+margin-top: 0px;
+margin-bottom: 0px; 
+padding-right: 5%;
+}
+
+.RevealOZBtn
+{
+position: absolute;
+left: 5%;
+bottom: 5%;
+width: 40%;
+}
+
+.EndButton
+{
+position: absolute;
+left: 55%;
+bottom: 5%;
+width: 40%;
+}
+
+.NewNameDesc
+{
+position: absolute;
+left: 5%;
+top: 0%;
+font-style: italic;
+}
+
+.NewGameName
+{
+position: absolute;
+left: 5%;
+top: 15%;
+width: 80%;
+font-size: 3.5vh;
+}
+
+.NewIconDesc
+{
+position: absolute;
+left: 5%;
+top: 25%;
+font-style: italic;
+}
+
+.NewIconToUpload
+{
+position: absolute;
+left: 5%;
+top: 40%;
+width: 40%;
+}
+
+.NewIconWarn
+{
+position: absolute;
+left: 5%;
+top: 45%;
+font-size: 2vh;
+}
+
+.NewPrimaryDesc
+{
+position: absolute;
+left: 60%;
+top: 25%;
+font-style: italic;
+}
+
+.NewPrimaryCheck
+{
+position: absolute;
+left: 85%;
+top: 32%;
+}
+
+.NewPrimaryWarn
+{
+position: absolute;
+left: 60%;
+top: 34%;
+width: 35%;
+font-size: 2vh;
+}
+
+.NewGameBtn
+{
+position: absolute;
+left: 15%;
+top: 80%;
+}
+
+.ErrorDiv
+{
+position: absolute;
+top: 75%;
+left: 30%;
+width: 35%;
+height: 5%;
+background-color: #E5B0AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+font-size: 2vh;
+text-align: center;
+font-weight: bold;
+}
+
+.OZSelectionDiv
+{
+position: absolute;
+left: 35%;
+top: 70.5%;
+width: 30%;
+height: 20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-top-width: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+.OZsDiv
+{
+position: absolute;
+left: 2.5%;
+top: 10%;
+width: 95%;
+height: 80%;
+background-color: #E5E5E5;
+overflow: auto;
+}
+
+.OZMgmntForm
+{
+position: relative;
+height: 25%;
+border-bottom-style: solid;
+border-bottom-width: .25vh;
+background-color: white;
+}
+
+.OZAvy
+{
+position: absolute;
+left: 2.5%;
+top: 5%;
+height: 90%
+}
+
+.OZsPlayerName
+{
+position: absolute;
+top: -40%;
+left: 15%;
+}
+
+.OZMngmtBtn
+{
+position: absolute;
+top: 15%;
+right: 5%;
+width: 20%;
+}
+
+.AllPlayersDiv
+{
+position: absolute;
+left: 10%;
+top: 30%;
+width: 60%;
+height: 69.5%;
+background-color: #E7D8AC;
+overflow: auto;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-bottom-width: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.PlayerForm
+{
+position: relative;
+width: 100%;
+height: 100px;
+border-bottom-color: #633A11;
+border-bottom-width: 1vh;
+border-bottom-style: dashed;
+margin: 0;
+}
+
+.PlayerName
+{
+position: absolute;
+top: 25%;
+left: 1%;
+font-weight: bold;
+}
+
+.PlayerAvatar
+{
+position: absolute;
+height: 75%;
+top: 12.5%;
+left: 30%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.PlayerTeam
+{
+position: absolute;
+left: 31%;
+top: 20%;
+}
+
+.GoodBtn
+{
+position: absolute;
+left: 45%;
+top: 30%;
+width: 12.5%
+}
+
+.Good2Btn
+{
+position: absolute;
+left: 45%;
+top: 15%;
+width: 12.5%
+}
+
+.OkBtn
+{
+position: absolute;
+left: 45%;
+top: 42.5%;
+width: 12.5%;
+height: 20%;
+}
+
+.BadBtn
+{
+position: absolute;
+left: 45%;
+top: 60%;
+width: 12.5%
+}
+
+.Bad2Btn
+{
+position: absolute;
+left: 45%;
+top: 70%;
+width: 12.5%
+}
+
+.ChatBanBtn
+{
+position: absolute;
+left: 60%;
+top: 30%;
+width: 12.5%
+}
+
+.KickBtn
+{
+position: absolute;
+left: 60%;
+top: 60%;
+width: 12.5%
+}
+
+.EditBtn
+{
+position: absolute;
+top: 45%;
+left: 75%;
+}
+
+.MissedMissions
+{
+position: absolute;
+top: 55%;
+left: 5%;
+font-size: 1.75vh;
+}
+
+.AddMissMis
+{
+position: absolute;
+top: 62.5%;
+left: 17.5%;
+width: 3%;
+}
+
+.RemMissMis
+{
+position: absolute;
+top: 62.5%;
+left: 1%;
+width: 3%;
+}
+
+.RemMissMisHid
+{
+position: absolute;
+top: 62.5%;
+left: 1%;
+width: 3%;
+visibility: hidden;
+}
+
+.StarveCounter
+{
+position: absolute;
+top: 50%;
+left: 1%;
+font-size: 1.75vh;
+}
+
+.InfoEditDiv
+{
+position: fixed;
+right: -21%;
+top: 30%;
+width: 20%;
+height: 35%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-right-width: 0;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.NewPlayerNameText
+{
+position: absolute;
+top: 0%;
+left: 5%;
+}
+
+.EditPlayerName
+{
+position: absolute;
+top: 20%;
+left: 5%;
+width: 90%;
+}
+
+.NewPlayerDescText
+{
+position: absolute;
+top: 30%;
+left: 5%;
+}
+
+.NewPlayerDesc
+{
+position: absolute;
+top: 50%;
+left: 5%;
+width: 90%;
+resize: none;
+}
+
+.SavePlayerInfoBtn
+{
+position: absolute;
+top: 87.5%;
+right: 5%;
+width: 30%;
+}
+
+.RemovePlayerAvyText
+{
+position: absolute;
+top: 82%;
+left: 5%;
+font-size: 2vh;
+}
+
+.MissionBackground
+{
+position: absolute;
+bottom: 0%;
+left: 25%;
+height: 80%;
+width: 50%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-bottom-width: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.MissionSelector
+{
+position: absolute;
+top: 5%;
+left: 10%;
+width: 80%;
+height: 20%;
+background-color: white;
+overflow: auto;
+}
+
+.missionForm
+{
+position: relative;
+margin: 0px;
+padding: 0px;
+height: 33%;
+border-bottom-width: .25vh;
+border-bottom-style: solid;
+}
+
+.MissionName
+{
+position: absolute;
+top: -30%;
+left: 26%;
+width: 50%;
+text-align: center;
+font-size: 2vh;
+}
+
+.MissionState
+{
+position: absolute;
+top: 0%;
+left: 16%;
+width: 70%;
+text-align: center;
+font-size: 2vh;
+}
+
+.ChngMsnBtn
+{
+position: absolute;
+top: 20%;
+left: 1%;
+}
+
+.DeleteMsnBtn
+{
+position: absolute;
+top: 20%;
+right: 1%;
+}
+
+.NewMsnBtn
+{
+position: absolute;
+top: 93%;
+left: 10%;
+width: 25%;
+}
+
+.SaveMissionData
+{
+position: absolute;
+top: 88%;
+left: 10%;
+width: 25%;
+}
+
+.ChangeMissionState
+{
+position: absolute;
+top: 90%;
+right: 10%;
+width: 25%;
+}
+
+.SetHumanWinner
+{
+position: absolute;
+width: 25%;
+top: 88%;
+right: 10%;
+visibility: hidden;
+}
+
+.SetZombieWinner
+{
+position: absolute;
+width: 25%;
+top: 93%;
+right: 10%;
+visibility: hidden;
+}
+
+.HideMission
+{
+position: absolute;
+width: 25%;
+left: 37.5%;
+top: 88%;
+visibility: hidden;
+}
+
+.SetPrimary
+{
+position: absolute;
+width: 25%;
+left: 37.5%;
+top: 93%;
+visibility: hidden;
+}
+
+.SetSecondary
+{
+position: absolute;
+width: 25%;
+left: 37.5%;
+top: 93%;
+visibility: hidden;
+}
+
+.HumTitTxt
+{
+position: absolute;
+top: 25%;
+left: 10%;
+}
+
+.missionHumanName
+{
+position: absolute;
+top: 32.5%;
+left: 10%;
+width: 35%;
+}
+
+.ZomTitTxt
+{
+position: absolute;
+top: 25%;
+right: 10%;
+}
+
+.missionZombieName
+{
+position: absolute;
+top: 32.5%;
+right: 10%;
+width: 35%;
+}
+
+.HumDesTxt
+{
+position: absolute;
+top: 37.5%;
+left: 10%;
+}
+
+.MissionHumanDesc
+{
+position: absolute;
+top: 45%;
+left: 10%;
+width: 35%;
+resize: none;
+}
+
+.ZomDesTxt
+{
+position: absolute;
+top: 37.5%;
+right: 10%;
+}
+
+.MissionHumanEnd
+{
+position: absolute;
+top: 67.5%;
+left: 10%;
+width: 35%;
+resize: none;
+}
+
+.HumEndTxt
+{
+position: absolute;
+top: 60%;
+left: 10%;
+}
+
+.MissionZombieDesc
+{
+position: absolute;
+top: 45%;
+right: 10%;
+width: 35%;
+resize: none;
+}
+
+.ZomEndTxt
+{
+position: absolute;
+top: 60%;
+right: 10%;
+}
+
+.MissionZombieEnd
+{
+position: absolute;
+top: 67.5%;
+right: 10%;
+width: 35%;
+resize: none;
+}
+
+.MissionUsersSide
+{
+position: fixed;
+bottom: -45.5%;
+left: 75.25%;
+height: 45%;
+width: 20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-bottom-width: 0;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.PlayerListTxt
+{
+position: absolute;
+top: 0%;
+left: 10%;
+}
+
+.MissionPlayerAdderSelect
+{
+position: absolute;
+top: 15%;
+left: 10%;
+width: 80%;
+}
+
+.AddPlayerToMissionBtn
+{
+position: absolute;
+top: 25%;
+left: 35%;
+width: 30%;
+}
+
+.PlayerAssocListTxt
+{
+position: absolute;
+top: 30%;
+left: 10%;
+}
+
+.RemovePlayerFromMissionBtn
+{
+position: absolute;
+top: 87.5%;
+right: 25%;
+width: 50%;
+visibility: hidden;
+}
+
+.SavePlayerSelection
+{
+position: absolute;
+top: 77.5%;
+left: 22.5%;
+width: 55%;
+}
+
+.MissionPlayersSelected
+{
+position: absolute;
+top: 45%;
+left: 10%;
+width: 80%;
+height: 30%;
+}
+
+.NewsDiv
+{
+position: absolute;
+left: 18.5%;
+top: 30%;
+width: 60%;
+height: 40%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.NewsListDiv
+{
+position: absolute;
+left: 2.5%;
+top: 5%;
+height: 90%;
+width: 60%;
+background-color: white;
+overflow: auto;
+}
+
+.NewsEntry
+{
+position: relative;
+padding: 0;
+margin: 0;
+height: 20%;
+width: 100%;
+background-color: #FFF0FF;
+border-bottom-style: solid;
+border-bottom-width: .25vh;
+}
+
+.GetNewsBtn
+{
+position: absolute;
+right: 20%;
+top: 25%;
+}
+
+.DeleteNewsBtn
+{
+position: absolute;
+right: 5%;
+top: 25%;
+}
+
+.NewsDate
+{
+position: absolute;
+left: 5%;
+top: -10%;
+padding-right: 2.5%;
+padding-left: 2.5%;
+border-style: solid;
+border-left-style: none;
+}
+
+.NewsTitle
+{
+position: absolute;
+left: 23%;
+top: 0%;
+width: 45%;
+}
+
+.EmailSent
+{
+position: absolute;
+left: 65%;
+top: 30%;
+width: 4.5%;
+}
+
+.EditNewsDiv
+{
+position: absolute;
+left: 65%;
+top: 5%;
+height: 90%;
+width: 32.5%;
+background-color: #FFF0FF;
+}
+
+.NewsTitleText
+{
+position: absolute;
+left: 5%;
+top: 15%;
+width: 90%;
+}
+
+.NewsDescText
+{
+position: absolute;
+left: 5%;
+top: 35%;
+width: 90%;
+resize: none;
+}
+
+.ResetNewsTimer
+{
+position: absolute;
+left: 5%;
+top: 70%;
+font-size: 2vh;
+}
+
+.NewNewsBtn
+{
+position: absolute;
+right: 5%;
+top: 75%;
+width: 30%;
+}
+
+.SaveNewsBtn
+{
+position: absolute;
+right: 5%;
+top: 85%;
+width: 30%;
+visibility: hidden;
+}
+
+.EmailNewsBtn
+{
+position: absolute;
+right: 40%;
+top: 85%;
+width: 40%;
+visibility: hidden;
+}
+
+.NewsTitleTxt
+{
+position: absolute;
+left: 5%;
+top: 0%;
+}
+
+.NewsDescTxt
+{
+position: absolute;
+left: 5%;
+top: 20%;
+}
+
+.StoryDiv
+{
+position: absolute;
+left: 25%;
+top: 20%;
+height: 60%;
+width: 50%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.StorySelDiv
+{
+position: absolute;
+left: 5%;
+top: 5%;
+height: 50%;
+width: 90%;
+background-color: white;
+overflow: auto;
+}
+
+.StoryListItem
+{
+position: relative;
+padding: 0;
+margin: 0;
+height: 20%;
+width: 100%;
+border-bottom-style: solid;
+border-bottom-width: .25vh;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.StoryShownAll
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #E0AA0F;
+border-style: inset;
+border-color: #CE1126;
+}
+
+.StoryShownZomb
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #E0AA0F;
+border-style: inset;
+border-color: #4B721D;
+}
+
+.StoryShownHum
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #E0AA0F;
+border-style: inset;
+border-color: #FF7C00;
+}
+
+.StoryHiddenAll
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #7F0000;
+border-style: inset;
+border-color: #CE1126;
+color: white;
+}
+
+.StoryHiddenZomb
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #7F0000;
+border-style: inset;
+border-color: #4B721D;
+color: white;
+}
+
+.StoryHiddenHum
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #7F0000;
+border-style: inset;
+border-color: #FF7C00;
+color: white;
+}
+
+.StoryHiddenRestricted
+{
+position: absolute;
+left: 2.5%;
+top: -25%;
+width: 25%;
+text-align: center;
+background-color: #303030;
+border-style: inset;
+border-color: #FFD800;
+color: #FFD800;
+}
+
+.StoryName
+{
+position: absolute;
+left: 30%;
+top: -20%;
+}
+
+.GetStoryBtn
+{
+position: absolute;
+right: 15%;
+top: 25%
+}
+
+.DeleteStoryBtn
+{
+position: absolute;
+right: 2.5%;
+top: 25%;
+}
+
+.StoryNameText
+{
+position: absolute;
+left: 2.5%;
+top: 62.5%;
+}
+
+.StoryDescText
+{
+position: absolute;
+left: 2.5%;
+top: 72.5%;
+width: 49%;
+height: 22.5%;
+resize: none;
+}
+
+.StoryStateSelect
+{
+position: absolute;
+left: 30%;
+top: 62.5%;
+width: 22.5%;
+}
+
+.StoryAccessCode
+{
+position: absolute;
+right: 2.5%;
+top: 53%;
+height: 15%;
+width: 38%;
+padding: 2.5%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+font-size: 6vh;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+visibility: hidden;
+text-align: center;
+}
+
+.SaveStoryBtn
+{
+position: absolute;
+left: 54%;
+top: 91%;
+width: 15%;
+visibility: hidden;
+}
+
+.NewStoryBtn
+{
+position: absolute;
+right: 2.5%;
+top: 91%;
+width: 15%;
+}
+
+.NPCDiv
+{
+position: absolute;
+left: 0%;
+top: 20%;
+width: 20%;
+height: 40%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+border-left-width: 0;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.NPCTxt
+{
+position: absolute;
+left: 5%;
+top: 0%;
+font-weight: bold;
+}
+
+.NPCListing
+{
+position: absolute;
+left: 5%;
+top: 15%;
+width: 90%;
+height: 70%;
+background-color: white;
+overflow: auto;
+}
+
+.NPCTag
+{
+position: relative;
+padding: 0;
+margin: 0;
+height: 20%;
+width: 100%;
+border-bottom-style: solid;
+border-bottom-width: .25vh;
+}
+
+.NPCTagUsed
+{
+position: relative;
+padding: 0;
+margin: 0;
+height: 20%;
+width: 100%;
+border-bottom-style: solid;
+border-bottom-width: .25vh;
+background-color: #FFCCCC;
+}
+
+.UsedBox
+{
+position: relative;
+top: 25%;
+left: 1.5%;
+}
+
+.TagID
+{
+position: absolute;
+top: -15%;
+left: 10%;
+font-weight: bold;
+}
+
+.DelNPCBtn
+{
+position: absolute;
+top: 25%;
+left: 70%;
+}
+
+.NewNPCBtn
+{
+position: absolute;
+left: 35%;
+top: 90%;
+width: 30%;
+}
+
+.ArsenalAdminTable
+{
+position: absolute;
+left: 30%;
+top: 20%;
+width: 40%;
+height: 80%;
+overflow: auto;
+}
+
+.ArsenalTableEntry
+{
+position: relative;
+padding: 0;
+margin: 0;
+width: 98.5%;
+height: 30%;
+background-color: white;
+border-style: inset;
+border-width: .5vh;
+border-color: #E7D8AC;
+}
+
+.BlasterIMG
+{
+position: absolute;
+left: 2%;
+top: 5%;
+width: 23%;
+}
+
+.ImageList
+{
+position: absolute;
+left: 1%;
+top: 80%;
+width: 25%;
+}
+
+.WpnName
+{
+position: absolute;
+right: 20%;
+top: 5%;
+height: 15%;
+width: 30%;
+font-size: 3vh;
+}
+
+.WpnCost
+{
+position: absolute;
+right: 20%;
+top: 37.5%;
+height: 15%;
+width: 15%;
+text-align: center;
+font-size: 3vh;
+}
+
+.WpnNumber
+{
+position: absolute;
+right: 20%;
+top: 70%;
+height: 15%;
+width: 5%;
+text-align: center;
+font-size: 3vh;
+}
+
+.WPNNameTXT
+{
+position: absolute;
+left: 30%;
+top: -5%;
+font-size: 3vh;
+}
+
+.WPNPriceTXT
+{
+position: absolute;
+left: 30%;
+top: 27.5%;
+font-size: 3vh;
+}
+
+.WPNNumTXT
+{
+position: absolute;
+left: 30%;
+top: 60%;
+font-size: 3vh;
+}
+
+.WPNRemaining
+{
+position: absolute;
+left: 81.5%;
+top: 10%;
+font-size: 3vh;
+text-align: center;
+}
+
+.WPNRemNum
+{
+position: absolute;
+left: 85%;
+top: 37.5%;
+width: 10%;
+height: 15%;
+font-size: 3vh;
+text-align: center;
+border-style: solid;
+border-width: .25vh;
+}
+
+.DeleteWPN
+{
+position: absolute;
+left: 82.5%;
+top: 72.5%;
+width: 15%;
+}
+
+.SaveWPN
+{
+position: absolute;
+left: 82.5%;
+top: 7.5%;
+width: 15%;
+}
+
+.ArsenalClaimEntry
+{
+position: relative;
+padding: 0;
+margin: 0;
+left: 5%;
+width: 90%;
+height: 10%;
+background-color: white;
+border-style: inset;
+border-width: .5vh;
+border-color: #E7D8AC;
+}
+
+.ClaimerAvy
+{
+position: absolute;
+left: 1%;
+top: 5%;
+height: 90%;
+}
+
+.ClaimerName
+{
+position: absolute;
+left: 15%;
+top: 10%;
+text-decoration: none;
+color: black;
+font-size: 2vh;
+}
+
+.ClaimChangeDate
+{
+position: absolute;
+left: 58%;
+top: 5%;
+font-style: italic;
+}
+
+.ApproveClaim
+{
+position: absolute;
+left: 85%;
+top: 5%;
+width: 13.5%;
+}
+
+.DenyClaim
+{
+position: absolute;
+left: 85%;
+top: 55%;
+width: 13.5%;
+}
+
+.ReturnClaim
+{
+position: absolute;
+left: 85%;
+top: 15%;
+width: 13.5%;
+height: 70%;
+white-space: normal;
+}
+
+.ArsenalAdminNewEntry
+{
+position: absolute;
+right: .3%;
+top: 20%;
+width: 15%;
+height: 60%;
+overflow: none;
+}
+
+.NewItemForm
+{
+position: absolute;
+right: -2%;
+top: 0%;
+width: 100%;
+height: 40%;
+background-color: #E7D8AC;
+border-top-left-radius: 5vh;
+border-bottom-left-radius: .75vh;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-right-width: 0;
+}
+
+.NewItmHeader
+{
+position: absolute;
+left: 0%;
+top: -17.5%;
+width: 100%;
+text-align: center;
+font-size: 4VH;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.NewItmName
+{
+position: absolute;
+left: 10%;
+top: 15%;
+}
+
+.NewWpnNm
+{
+position: absolute;
+left: 10%;
+top: 35%;
+}
+
+.NewItmPrice
+{
+position: absolute;
+left: 10%;
+top: 45%;
+}
+
+.NewWpnCost
+{
+position: absolute;
+left: 10%;
+top: 65%;
+width: 32.5%;
+}
+
+.NewItmStock
+{
+position: absolute;
+left: 55%;
+top: 45%;
+}
+
+.NewWpnStock
+{
+position: absolute;
+left: 60%;
+top: 65%;
+width: 20%;
+}
+
+.NewWeapon
+{
+position: absolute;
+left: 30%;
+top: 85%;
+width: 40%;
+}
+
+.UploadPicForm
+{
+position: absolute;
+right: -2%;
+top: 42.5%;
+width: 100%;
+height: 20%;
+background-color: #E7D8AC;
+border-top-left-radius: 1vh;
+border-bottom-left-radius: 1vh;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-right-width: 0;
+}
+
+.UploadHeader
+{
+position: absolute;
+left: 0%;
+top: -30%;
+width: 100%;
+text-align: center;
+font-size: 3.5VH;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.ItemPicUp
+{
+position: absolute;
+left: 5%;
+top: 40%;
+width: 90%;
+}
+
+.ArsenalUpPic
+{
+position: absolute;
+left: 35%;
+top: 70%;
+width: 30%;
+}
+
+.DelPicForm
+{
+position: absolute;
+right: -2%;
+top: 65%;
+width: 100%;
+height: 30%;
+background-color: #E7D8AC;
+border-top-left-radius: 1vh;
+border-bottom-left-radius: 5vh;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-right-width: 0;
+}
+
+.DelHeader
+{
+position: absolute;
+left: 5%;
+top: -10%;
+text-align: center;
+font-size: 3VH;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.JustImgSel
+{
+position: absolute;
+left: 5%;
+top: 35%;
+width: 40%;
+}
+
+.DelIMG
+{
+position: absolute;
+left: 55%;
+top: 35%;
+width: 35%;
+}
+
+.DelIMGBtn
+{
+position: absolute;
+left: 7.5%;
+top: 65%;
+width: 35%;
+visibility: hidden;
+}
+
+.ArsenalErrorDiv
+{
+position: absolute;
+top: 46%;
+left: 70.5%;
+width: 13%;
+height: 10%;
+background-color: #E5B0AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+font-size: 2vh;
+text-align: center;
+font-weight: bold;
+}
+
+.ComunityMenu
+{
+position: absolute;
+left: 10%;
+top: 20%;
+width: 80%;
+height: 70%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.HumChatTopper
+{
+position: absolute;
+top: -5%;
+left: 15%;
+width: 23.5%;
+text-align: center;
+font-size: 5VH;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.ChatHumanDiv
+{
+position: absolute;
+top: 12.5%;
+left: 5%;
+height: 45%;
+width: 43.5%;
+overflow: auto;
+overflow-x: hidden;
+background-color: #C9C1B8;
+}
+
+.ZomChatTopper
+{
+position: absolute;
+top: -5%;
+right: 15%;
+width: 23.5%;
+text-align: center;
+font-size: 5VH;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.ChatZombieDiv
+{
+position: absolute;
+top: 12.5%;
+right: 5%;
+height: 45%;
+width: 43.5%;
+overflow: auto;
+overflow-x: hidden;
+background-color: #C9C1B8;
+}
+
+.ChatHandlerDiv
+{
+position: relative;
+width: 99.5%;
+background-color: #C9C1B8;
+border-style: solid;
+border-width: .25vh;
+border-color: #A9C398;
+margin-bottom: 1%;
+}
+
+.DelBtnDiv
+{
+position: absolute;
+width: 11%;
+padding: 0;
+margin: 0;
+height: 100%;
+}
+
+.ChatTxtDiv
+{
+position: relative;
+left: 12%;
+width: 88%;
+padding: 0;
+margin: 0;
+height: 100%;
+resize: none;
+}
+
+.GroupEditDiv
+{
+position: absolute;
+left: 65%;
+top: 60%;
+width: 30%;
+height: 35%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+}
+
+.GroupListDiv
+{
+position: absolute;
+left: 5%;
+top: 60%;
+width: 65%;
+height: 35%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-radius: .75vw;
+overflow-x: auto;
+white-space: nowrap;
+}
+
+.GroupDiv
+{
+position: relative;
+height: 98%;
+width: 25%;
+display:inline-block;
+}
+
+.GroupName
+{
+position: absolute;
+width: 100%;
+top: -5%;
+text-align: center;
+font-size: 2vh;
+}
+
+.GroupType
+{
+position: absolute;
+width: 100%;
+top: 5%;
+text-align: center;
+font-size: 2vh;
+font-style: italic;
+}
+
+.GroupAvy
+{
+position: absolute;
+top: 25%;
+left: 25%;
+width: 50%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.EditGroupBtn
+{
+position: absolute;
+bottom: 2.5%;
+width: 25%;
+left: 37.5%;
+}
+
+.GroupNameEditText
+{
+position: absolute;
+top: 10%;
+left: 20%;
+width: 45%;
+}
+
+.GroupSubTitleEditText
+{
+position: absolute;
+top: 35%;
+left: 20%;
+width: 45%;
+}
+
+.GroupDescExitText
+{
+position: absolute;
+top: 60%;
+left: 20%;
+height: 30%;
+width: 75%;
+resize: none;
+}
+
+.SaveEditBtn
+{
+position: absolute;
+top: 5%;
+left: 75%;
+visibility: hidden;
+}
+
+.DropGroupBtn
+{
+position: absolute;
+top: 45%;
+left: 67%;
+visibility: hidden;
+}
+
+.AvyDropPar
+{
+position: absolute;
+top: 10%;
+left: 70%;
+visibility: hidden;
+}
+
+.LogList
+{
+position: absolute;
+top: 5%;
+left: 45%;
+width: 10%;
+}
+
+.LogListTop
+{
+position: absolute;
+top: -2.5%;
+left: 45%;
+width: 10%;
+text-align: center;
+font-weight: bold;
+}

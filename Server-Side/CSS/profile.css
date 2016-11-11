@@ -1,0 +1,139 @@
+.ProfileTopDiv
+{
+position: absolute;
+width: 52%;
+height: 19%;
+left: 25%;
+top: 32%;
+background-color: #EAAC10;
+border-top-right-radius: 5vh;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-left-width: 0;
+}
+
+.ProfileBotDiv
+{
+position: absolute;
+width: 44%;
+min-height: 25%;
+top: 50%;
+left: 16%;
+background-color: #E7D8AC;
+border-bottom-left-radius: 3vh;
+border-color: #CE1126;
+border-width: .5vh;
+border-style: solid;
+border-top-width: 0;
+}
+
+.ProfileName
+{
+position: absolute;
+top: -30%;
+left: 5%;
+font-weight: bold;
+font-size: 6vh;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.ProfileAvy
+{
+position: absolute;
+bottom: 49.5%;
+right: 74.5%;
+min-width: 10%;
+max-height:20%;
+border-width: .5vh;
+border-style: dashed;
+border-color: #CE1126;
+z-index: 3;
+}
+
+.ProfileNoGroup
+{
+position: absolute;
+top: 30%;
+left: 5%;
+font-style: italic;
+font-weight: bold;
+font-size: 3vh;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProfileGroupName
+{
+position: absolute;
+top: 30%;
+left: 1%;
+font-weight: bold;
+font-size: 2.9vh;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+
+.ProfileGroupSub
+{
+position: absolute;
+top: 55%;
+left: 3%;
+font-size: 2vh;
+font-style: italic;
+color: black;
+}
+
+.ProfileDesc
+{
+position: absolute;
+top: 2.5%;
+left: 2.5%;
+width: 85%;
+font-style: italic;
+}
+
+.ProfileEventLog
+{
+position: absolute;
+top: 42.5%;
+right: 21.5%;
+height: 55%;
+width: 22%;
+background-color: #E7D8AC;
+border-width: 1vh;
+border-style: solid;
+border-color: #AF1E2D;
+}
+
+.EvtDiv
+{
+position: relative;
+height: 10%;
+left: 1.5%;
+width: 98.5%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+font-size: 2.3vh;
+}
+
+.EvtDiv a
+{
+text-decoration: none;
+font-weight: 800;
+color: black;
+}
+
+.EvtDate
+{
+position: absolute;
+top: 20%;
+right: 5%;
+font-size: 2vh;
+font-style: italic;
+}
+
+.GroupJoin
+{
+font-style: italic;
+}

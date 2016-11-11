@@ -1,0 +1,588 @@
+@font-face
+{
+font-family: SilentFont;
+src: url('../Fonts/SLNTHLE.TTF');
+}
+
+body
+{
+background-color: #FFF0FF;
+}
+
+.TopLogo
+{
+position: absolute;
+width: 65%;
+height: 20%;
+top: 7.5%;
+left: -5%;
+background-color: #E0AA0F;
+border-color: #000000;
+border-width: 1vh;
+border-style: dashed;
+transform: skewX(-30deg);
+}
+
+.KeeneSourceLogo
+{
+position: absolute;
+font-family: SilentFont;
+font-size: 26vh;
+left: 15%;
+top: -150%;
+}
+
+.KeeneSourceSubLogo
+{
+position: absolute;
+font-family: SilentFont;
+font-size: 8vh;
+left: 55%;
+top: -15%;
+line-height: .8em;
+}
+
+.KSCRed
+{
+color: #CE1126;
+}
+
+.SubLogo
+{
+position: absolute;
+width: 20%;
+height: 80%;
+top: 5%;
+right: -21.25%;
+background: #AF1E2D;
+border-color: #C9C1B8;
+border-left-color: #000000;
+border-width: 1vh;
+border-style: dashed;
+}
+
+.Logo
+{
+position: absolute;
+right: 16%;
+top: 5%;
+height: 90%;
+transform: skewX(30deg);
+}
+
+.InfoDiv
+{
+position: absolute;
+bottom: 0%;
+left: 0%;
+width: 57.5%;
+height: 67.5%;
+background: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-top-right-radius: 3vw;
+border-left: 0px;
+border-bottom: 0px;
+}
+
+.OverMenu
+{
+position: absolute;
+width: 15%;
+height: 4.5%;
+top: 32.5%;
+right: 0%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-top-left-radius: 1vw;
+}
+
+.logswitch
+{
+position: absolute;
+left: 10%;	
+top: 10%;
+width: 35%;
+height: 70%;
+background-color: #F5E5FF;
+border-style: inset;
+border-width: .3vh;
+border-color: #AF1E2D;
+color: #AF1E2D;
+font-size: 2vh;
+}
+
+.regswitch
+{
+position: absolute;
+right: 10%;	
+top: 10%;
+width: 35%;
+height: 70%;
+background-color: #E7D8AC;
+border-style: outset;
+border-width: .3vh;
+border-color: #AF1E2D;
+color: #AF1E2D;
+font-size: 2vh;
+}
+
+.ErrorBox
+{
+position: absolute;
+width: 15%;
+height: 5%;
+top: 39%;
+right: -.5%;
+background-color: #E5B0AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+font-size: 2vh;
+text-align: center;
+font-weight: bold;
+}
+
+.LogMenu
+{
+position: fixed;
+width: 15%;
+height: 22.5%;
+top: 40%;
+right: 0%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+}
+
+.ErrLogMenu
+{
+position: fixed;
+width: 15%;
+height: 20%;
+top: 46%;
+right: 0%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+}
+
+.lognamebox
+{
+position: absolute;
+width: 80%;
+height: 16%;
+top: 10%;
+right: 10%;
+font-size: 80%;
+font-size: 2vh;
+}
+
+.logpassbox
+{
+position: absolute;
+width: 80%;
+height: 16%;
+top: 35%;
+right: 10%;
+font-size: 2vh;
+}
+
+.logbtn
+{
+position: absolute;
+width: 40%;
+height: 15%;
+top: 60%;
+right: 30%;
+font-size: 2vh;
+}
+
+.frgtbtn
+{
+position: absolute;
+width: 50%;
+height: 10%;
+top: 75%;
+left: 25%;
+font-size: 1.75vh;
+background-color: #F5E5FF;
+border-style: inset;
+border-width: .3vh;
+border-color: #AF1E2D;
+color: #AF1E2D;
+text-align: center;
+cursor: pointer;
+padding-top: 1%;
+}
+
+.FrgtMenu
+{
+position: fixed;
+width: 15%;
+height: 7.5%;
+top: 65%;
+right: -20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+border-top-left-radius: 1vw;
+}
+
+.ErrFrgtMenu
+{
+position: fixed;
+width: 15%;
+height: 7.5%;
+top: 68%;
+right: -20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+border-top-left-radius: 1vw;
+}
+
+.frgtemailbox
+{
+position: absolute;
+width: 80%;
+height: 35%;
+top: 5%;
+right: 10%;
+font-size: 2vh;
+}
+
+.frgtsendbtn
+{
+position: absolute;
+width: 60%;
+height: 35%;
+top: 55%;
+right: 20%;
+font-size: 2vh;
+}
+
+.RegMenu
+{
+position: fixed;
+width: 15%;
+height: 40%;
+top: 40%;
+right: -20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+}
+
+.ErrRegMenu
+{
+position: fixed;
+width: 15%;
+height: 33%;
+top: 46%;
+right: -20%;
+background-color: #E7D8AC;
+border-color: #CE1126;
+border-width: 1vh;
+border-style: solid;
+border-right-width: 0px;
+border-bottom-left-radius: 1vw;
+}
+
+.reglogbox
+{
+position: absolute;
+width: 80%;
+height: 8.5%;
+top: 7.5%;
+right: 10%;
+font-size: 2vh;
+}
+
+.regpassbox
+{
+position: absolute;
+width: 80%;
+height: 8.5%;
+top: 22.5%;
+right: 10%;
+font-size: 2vh;
+}
+
+.regpasschkbox
+{
+position: absolute;
+width: 80%;
+height: 8.5%;
+top: 37.5%;
+right: 10%;
+font-size: 2vh;
+}
+
+.regemailbox
+{
+position: absolute;
+width: 80%;
+height: 8.5%;
+top: 52.5%;
+right: 10%;
+font-size: 2vh;
+}
+
+.regbtn
+{
+position: absolute;
+width: 40%;
+height: 20px;
+top: 82.5%;
+right: 30%;
+font-size: 2vh;
+}
+
+.StatDiv
+{
+position: absolute;
+left: 0px;
+top: 0px;
+height: 30%;
+width: 100%;
+border-bottom-width: .5vh;
+border-bottom-style: solid;
+border-color: #CE1126;
+}
+
+.GameIcon
+{
+position: absolute;
+top: 5%;
+left: 2.5%;
+width: 13%;
+border-style: dashed;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.MainGameName
+{
+position: absolute;
+top: -20%;
+left: 15%;
+width: 70%;
+text-align: center;
+font-size: 5vh;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.PlayerGraph
+{
+position: absolute;
+top: 40%;
+left: 25%;
+width: 60%;
+height: 15%;
+border-style: solid;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.HumanStatDiv
+{
+position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+background-color: #FF7C00;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.HumPerCountTxt
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 0%;
+left: 0%;
+width: 200%;
+}
+
+.ZombieStatDiv
+{
+position: absolute;
+top: 0%;
+right: 0%;
+height: 100%;
+background-color: #4B721D;
+text-align: right;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.ZomPerCountTxt
+{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 0%;
+right: 0%;
+width: 200%;
+}
+
+.MissionGraph
+{
+position: absolute;
+top: 70%;
+left: 25%;
+width: 60%;
+height: 15%;
+border-style: solid;
+border-width: .5vh;
+border-color: #633A11;
+}
+
+.HumanStatDiv2
+{
+position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+background-color: #0094FF;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.ZombieStatDiv2
+{
+position: absolute;
+top: 0%;
+right: 0%;
+height: 100%;
+background-color: #D61515;
+text-align: right;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.GraphTitle
+{
+position: absolute;
+top: -90%;
+left: 0%;
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.NoGame1
+{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+font-family: "Arial Black", Gadget, sans-serif;
+text-align: center;
+font-size: 6vh;
+}
+
+.NoGame2
+{
+position: absolute;
+top: 60%;
+left: 0%;
+width: 100%;
+font-size: 2vh;
+font-style: italic;
+text-align: center;
+}
+
+.NewsDiv
+{
+position: absolute;
+left: 0%;
+top: 30.5%;
+height: 69.5%;
+width: 100%;
+background-color: #FFF0FF;
+overflow: auto;
+}
+
+.NewsEntryDiv
+{
+position: relative;
+left: 10%;
+width: 80%;
+min-height: 30%;
+margin-top: 10vh;
+margin-bottom: 10vh;
+background-color: #E7D8AC;
+}
+
+.NewsTitle
+{
+position: absolute;
+left: 0%;
+top: -3.5vh;
+background-color: #CE1126;
+color: white;
+width: 50%;
+height: 5vh;
+padding-top: 1vh;
+padding-left: 5%;
+border-bottom-width: .5vh;
+border-bottom-style: solid;
+border-right-width: .5vh;
+border-right-style: solid;
+border-color: #FFF0FF;
+border-top-left-radius: 3vh;
+border-bottom-right-radius: 1vh;
+font-size: 3vh;
+font-weight: bold;
+text-align: center;
+}
+
+.NewsDesc
+{
+position: relative;
+padding: 5%;
+text-indent: 2.5%;
+font-size: 2.5vh;
+}
+
+.NewsDate
+{
+position: absolute;
+right: 0%;
+bottom: -1.5vh;
+background-color: #CE1126;
+color: white;
+width: 15%;
+height: 3vh;
+padding-top:.5vh;
+padding-left: 5%;
+border-top-width: .5vh;
+border-top-style: solid;
+border-left-width: .5vh;
+border-left-style: solid;
+border-color: #FFF0FF;
+border-bottom-right-radius: 3vh;
+border-top-left-radius: 1vh;
+font-size: 2vh;
+font-style: italic;
+}

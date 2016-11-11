@@ -1,0 +1,140 @@
+body
+{
+background-color: #E5DCD3;
+}
+
+@font-face
+{
+font-family: SilentFont;
+src: url('../Fonts/SLNTHLE.TTF');
+}
+
+.MiniLogo
+{
+position: absolute;
+top: 0%;
+left: -1.5%;
+height: 8%;
+width: 82.65%;
+background-color: #E0AA0F;
+transform: skewX(-30deg);
+border-right: 1vh dashed black;
+}
+
+.StarveWhen
+{
+position: absolute;
+top: -5%;
+right: 2.5%;
+transform: skewX(30deg);
+font-weight: bold;
+font-size: 3vh;
+}
+
+.MnLogoTxt
+{
+position: absolute;
+top: -40%;
+left: 8%;
+font-family: SilentFont;
+font-weight: bold;
+font-size: 5vh;
+}
+
+.MnLogoTxtSmall
+{
+font-size: 3vh;
+}
+
+#TopBar
+{
+position: absolute;
+top: 5%;
+left: -1.5%;
+width: 75%;
+list-style:none;
+font-weight:bold;
+margin-bottom:10px;
+float:left;
+background-color: #000000;
+color: #FFFFFF;
+font-size: 2.8vh;
+transform: skewX(-30deg);
+padding-right: 3%;
+font-family: Verdana, Geneva, sans-serif;
+z-index: 5;
+}
+
+#TopBar a
+{
+color: white;
+text-decoration: none;
+}
+
+#TopBar li
+{
+float:left;
+margin:1%;
+position:relative;
+background-color: #000000;
+color: #FFFFFF;
+padding-right: 2.5%;
+transform: skewX(30deg);
+}
+
+#TopBar ul
+{
+width: 100%;
+list-style:none;
+position:absolute;
+display:none;
+background-color: #000000;
+color: #FFFFFF;
+font-size: 2.25vh;
+padding:0;
+margin:0;
+}
+#TopBar ul li
+{
+padding-top: 5px;
+float: none;
+background-color: #000000;
+color: #FFFFFF;
+transform: skewX(0deg);
+}
+
+#TopBar li:hover ul
+{
+width: 125%;
+display: block;
+background-color: #000000;
+color: #FFFFFF;
+}
+
+.LogOffBtn
+{
+position: absolute;
+width: 7%;
+top: 5%;
+right: 5%;
+}
+
+input[type="submit"], button 
+{
+background-color: #F5E5FF;
+border-style: inset;
+border-width: .3vh;
+border-color: #AF1E2D;
+color: #AF1E2D;
+font-size: 2vh;
+}
+
+input[type="submit"]:disabled, button :disabled
+{
+background-color: #E7D8AC;
+border-style: inset;
+border-width: .3vh;
+border-color: #633A11;
+color: #A9C398;
+font-size: 2vh;
+}
